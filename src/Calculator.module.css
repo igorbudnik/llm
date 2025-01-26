@@ -1,0 +1,72 @@
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  position: relative;
+  width: 400px;
+  height: 460px;
+  background: linear-gradient(rgb(187, 241, 255), rgb(22, 161, 196));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  border-radius: 30px;
+  border: 2px solid gray;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.calcDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3;
+  column-gap: 25px;
+  row-gap: 5px;
+}
+
+.signDiv {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 3;
+  column-gap: 25px;
+  row-gap: 5px;
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  flex-wrap: wrap;
+  border-radius: 50px;
+}
+
+.input {
+  background-color: white;
+  width: 340px;
+  height: 65px;
+  padding-left: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.erace {
+  position: absolute;
+  right: 35px;
+  top: 45px;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+}
